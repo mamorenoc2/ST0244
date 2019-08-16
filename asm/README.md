@@ -1,7 +1,12 @@
-Source files from the book: Kent D. Lee (2017). Foundations of
-Programming Languages. 2nd ed. Springer.
+Source files from the book: Kent D. Lee (2017). [Foundations of
+Programming
+Languages](https://kentdlee.github.io/PL/build/html/index.html). 2nd
+ed. Springer.
 
-* The Python files were tested with Python 3.5.2.
+* You can use the [pyenv](https://realpython.com/intro-to-pyenv) tool
+  for managing multiple Python versions in your system.
+
+* The Python files were tested with Python 3.2.6.
 
 * The JCoCo virtual machine was tested with
 
@@ -16,17 +21,7 @@ OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
 and redirecting the standard output to a file, e.g.
 
 ```bash
-$ python3 file.py > file.casm
-```
-
-and removing the warning
-
-```bash
-************************************************************
-* WARNING: disassembler.py should be run using Python 3.2  *
-*          You are running Python 3.5                      *
-*          The disassembly may not be correct.             *
-************************************************************
+$ python3.2 file.py > file.casm
 ```
 
 * For running the JCoCo virtual machine use
