@@ -2,12 +2,8 @@ import disassembler
 import sys
 
 def main():
-    x = 5
-    y = 6
-    if x > y:
-        print(x)
-
-    print(y)
+    lst = ["hello", "world"]
+    print(lst)
 
 if len(sys.argv) == 1:
     main()

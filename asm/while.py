@@ -1,4 +1,5 @@
 import disassembler
+import sys
 
 def main():
     f = 8
@@ -12,4 +13,7 @@ def main():
         i = tmp
     print("Fib(" + str(n) + ") is", i)
 
-disassembler.disassemble(main)
+if len(sys.argv) == 1:
+    main()
+else:
+    disassembler.disassemble(main)

@@ -1,4 +1,5 @@
 import disassembler
+import sys
 
 def main():
     x = 5
@@ -8,4 +9,8 @@ def main():
     else:
         z = y
     print(z)
-disassembler.disassemble(main)
+
+if len(sys.argv) == 1:
+    main()
+else:
+    disassembler.disassemble(main)

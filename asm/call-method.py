@@ -2,12 +2,9 @@ import disassembler
 import sys
 
 def main():
-    x = 5
-    y = 6
-    if x > y:
-        print(x)
-
-    print(y)
+    s   = input("Enter integers separated by spaces: ")
+    lst = s.split()
+    print(lst)
 
 if len(sys.argv) == 1:
     main()

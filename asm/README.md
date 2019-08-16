@@ -21,7 +21,7 @@ OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
 and redirecting the standard output to a file, e.g.
 
 ```bash
-$ python3.2 file.py > file.casm
+$ python3.2 file.py 1 > file.casm
 ```
 
 * For running the JCoCo virtual machine use
