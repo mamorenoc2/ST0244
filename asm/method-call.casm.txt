@@ -14,6 +14,9 @@ BEGIN
 
           LOAD_ATTR                      1
 
+# The `CALL_FUNCTION 0` instruction calls the method that was located
+# in the previous instruction.
+
           CALL_FUNCTION                  0
           STORE_FAST                     1
           LOAD_GLOBAL                    2
