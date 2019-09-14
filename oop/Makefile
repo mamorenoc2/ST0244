@@ -14,5 +14,8 @@ polymorphism : polymorphism.cpp
 exceptions : exceptions.cpp
 	$(CC) $(CFLAGS) -std=c++11 $<
 
+signal-handler : signal-handler.cpp
+	$(CC) $(CFLAGS) $<
+
 clean :
 	rm -f a.out
