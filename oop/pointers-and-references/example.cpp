@@ -86,7 +86,7 @@ initialization." (Stroustrup, 2018, p. 12)
 void
 fn3 ()
 {
-  int i   {3};
+  int i {3};
   int* pi {&i};
 
   // In a declaration, the unary suffix & means "reference to". The variable `ri` is a reference to `int` referring the variable `i`.
@@ -126,7 +126,7 @@ swap1 (int v1, int v2)
 
 // Solution using pointers.
 void
-swap2 (int *v1, int *v2)
+swap2 (int* v1, int* v2)
 {
   int temp {*v1};
 
@@ -136,7 +136,7 @@ swap2 (int *v1, int *v2)
 
 // Solution using references.
 void
-swap3 (int &v1, int &v2)
+swap3 (int& v1, int& v2)
 {
   int temp {v1};
 
@@ -150,18 +150,18 @@ swap3 (int &v1, int &v2)
 int
 main()
 {
-  // fn1 ();
-  // fn2 ();
-  // fn3 ();
+  fn1 ();
+  fn2 ();
+  fn3 ();
 
-  // int i {10};
-  // int j {20};
+  int i {10};
+  int j {20};
 
-  // swap1 (i, j);
-  // swap2 (&i, &j);
-  // swap3 (i, j);
+  swap1 (i, j);
+  swap2 (&i, &j);
+  swap3 (i, j);
 
-  // cout << "i = " << i << " and j = " << j << endl;
+  cout << "i = " << i << " and j = " << j << endl;
 
-  // return 0;
+  return 0;
 }

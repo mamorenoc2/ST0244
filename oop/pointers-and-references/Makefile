@@ -1,7 +1,7 @@
 
 CFLAGS := -std=c++11 -Wall -Wextra
 
-file = test
+file = example
 
 $(file) : $(file).cpp
 	g++ $(CFLAGS) $<
