@@ -50,7 +50,7 @@ fn2 ()
   //
   // Make figure in the whiteboard.
   p = &v[2];
-  cout << (void *) p << endl;
+  cout << (void*) p << endl;
 
   // In expressions, a prefix unary `*` means "contents of". The
   // content of `p` is the third element of `v`.
