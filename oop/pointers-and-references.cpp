@@ -150,18 +150,18 @@ swap3 (int& v1, int& v2)
 int
 main()
 {
-  fn1 ();
-  fn2 ();
-  fn3 ();
+  // fn1 ();
+  // fn2 ();
+  // fn3 ();
 
-  int i {10};
-  int j {20};
+  // int i {10};
+  // int j {20};
 
-  swap1 (i, j);
-  swap2 (&i, &j);
-  swap3 (i, j);
+  // swap1 (i, j);
+  // swap2 (&i, &j);
+  // swap3 (i, j);
 
-  cout << "i = " << i << " and j = " << j << endl;
+  // cout << "i = " << i << " and j = " << j << endl;
 
   return 0;
 }
