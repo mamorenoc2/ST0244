@@ -148,7 +148,7 @@ swap3 (int& v1, int& v2)
 // Main
 
 int
-main()
+main ()
 {
   // fn1 ();
   // fn2 ();
@@ -162,6 +162,4 @@ main()
   // swap3 (i, j);
 
   // cout << "i = " << i << " and j = " << j << endl;
-
-  return 0;
 }
