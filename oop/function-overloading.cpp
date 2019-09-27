@@ -18,7 +18,7 @@ volume (int s)
 double
 volume (double r, int h)
 {
-  return 3.1415926 * r * r h;
+  return 3.1415926 * r * r * h;
 }
 
 // Volume of a cuboid.
