@@ -1,11 +1,14 @@
 
 CC     := g++
-CFLAGS := -std=c++11 -Wall -Wextra
+CFLAGS := -Wall -Wextra
 
 pointers-and-references : pointers-and-references.cpp
-	$(CC) $(CFLAGS) $<
+	$(CC) $(CFLAGS) -std=c++11 $<
 
 function-overloading : function-overloading.cpp
+	$(CC) $(CFLAGS) $<
+
+polymorphism : polymorphism.cpp polymorphism.h
 	$(CC) $(CFLAGS) $<
 
 clean :
