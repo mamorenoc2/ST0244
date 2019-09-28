@@ -6,7 +6,7 @@
 #include "polymorphism.h"
 
 void
-do_meowing (Felid &cat)
+do_meowing (Felid& cat)
 {
   cat.meow ();
 }
