@@ -8,7 +8,7 @@ pointers-and-references : pointers-and-references.cpp
 function-overloading : function-overloading.cpp
 	$(CC) $(CFLAGS) $<
 
-polymorphism : polymorphism.cpp polymorphism.h
+polymorphism : polymorphism.cpp
 	$(CC) $(CFLAGS) $<
 
 clean :
