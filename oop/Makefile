@@ -11,5 +11,8 @@ function-overloading : function-overloading.cpp
 polymorphism : polymorphism.cpp
 	$(CC) $(CFLAGS) $<
 
+exceptions : exceptions.cpp
+	$(CC) $(CFLAGS) -std=c++11 $<
+
 clean :
 	rm -f a.out
