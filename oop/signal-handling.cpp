@@ -8,7 +8,8 @@
 
 using namespace std;
 
-void sigHandler (int signum)
+void
+sigHandler (int signum)
 {
   cerr << "Signal received: ";
 
@@ -33,7 +34,8 @@ void sigHandler (int signum)
   exit(0);
 }
 
-int zero_fn ()
+int
+zero_fn ()
 {
   return 0;
 }

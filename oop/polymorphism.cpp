@@ -30,7 +30,8 @@ do_meowing (Felid& cat)
   cat.meow ();
 }
 
-int main ()
+int
+main ()
 {
   Cat    cat;
   Tiger  tiger;
