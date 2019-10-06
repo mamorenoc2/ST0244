@@ -1,6 +1,7 @@
 
-CC     := g++
-CFLAGS := -Wall -Wextra
+CC       := g++
+CFLAGS   := -Wall -Wextra
+C11FLAGS := -Wall -Wextra -std=c++11
 
 all : exceptions \
       function-overloading \
@@ -9,13 +10,13 @@ all : exceptions \
       signal-handling
 
 exceptions : exceptions.cpp
-	$(CC) $(CFLAGS) -std=c++11 $<
+	$(CC) $(C11FLAGS) $<
 
 function-overloading : function-overloading.cpp
 	$(CC) $(CFLAGS) $<
 
 pointers-and-references : pointers-and-references.cpp
-	$(CC) $(CFLAGS) -std=c++11 $<
+	$(CC) $(C11FLAGS) $<
 
 polymorphism : polymorphism.cpp
 	$(CC) $(CFLAGS) $<
