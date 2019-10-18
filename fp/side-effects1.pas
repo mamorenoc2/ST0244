@@ -6,7 +6,7 @@
 program P;
 
 { Global variable }
-var b :  integer;
+var b : integer;
 
 function a() : integer;
 begin
@@ -22,5 +22,5 @@ begin
    { writeln(a() + b); }
 
    { Prints 15 }
-   writeln(b + a());
+   { writeln(b + a()) };
 end.
