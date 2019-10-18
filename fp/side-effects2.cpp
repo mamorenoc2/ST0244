@@ -1,7 +1,7 @@
 // Tested with g++ (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609.
 
-// From p. 229 "Kent D. Lee (2017). Foundations of Programming
-// Languages. 2nd ed."
+// From p. 229 of Kent D. Lee (2017), Foundations of Programming
+// Languages, 2nd ed.
 
 #include <iostream>
 

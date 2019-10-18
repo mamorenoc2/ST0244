@@ -1,7 +1,7 @@
 { Tested with Free Pascal Compiler version 3.0.0+dfsg-2 [2016/01/28]. }
 
-{ Adapted from Fig. 5.1 of "Kent D. Lee (2017). Foundations of }
-{ Programming Languages. 2nd ed." }
+{ Adapted from Fig. 5.1 in Kent D. Lee (2017), Foundations of }
+{ Programming Languages, 2nd ed. }
 
 program P;
 
