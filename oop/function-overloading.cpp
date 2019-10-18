@@ -1,4 +1,3 @@
-// Tested with g++ (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609.
 
 // From: Wikipedia (2019-09-27)
 // https://en.wikipedia.org/wiki/Function_overloading

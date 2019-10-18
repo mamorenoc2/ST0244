@@ -1,4 +1,3 @@
--- Tested with GHC 8.8.1.
 
 -- Concatenation of list using currying.
 appendC :: [a] -> [a] -> [a]

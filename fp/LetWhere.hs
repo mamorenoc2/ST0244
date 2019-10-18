@@ -1,4 +1,3 @@
--- Tested with GHC 8.8.1.
 
 -- Adaped from Fig. 5.9 in Kent D. Lee (2017), Foundations of
 -- Programming Languages, 2nd ed.

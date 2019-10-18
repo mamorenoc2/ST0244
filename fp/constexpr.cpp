@@ -1,7 +1,5 @@
 // Created on 2019-10-05.
 
-// Tested with g++ (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609.
-
 #include <stdio.h>
 
 // Possible error: body of constexpr function ‘constexpr double

@@ -1,4 +1,3 @@
-// Tested with g++ (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609.
 
 // Based on "Stroustrup, Bjarne (2018). A Tour of C++. 2nd
 // ed. Addison-Wesley" and

@@ -40,14 +40,21 @@ JCoCo output when using the `-v` option, e.g.
 
 ### Tested with
 
-* The C++ files were tested with
+* C++ files were tested with
 
     ```bash
     $ g++ --version
     g++ 5.4.0
     ```
 
-* The Java files were tested with
+* Haskell files were tested with
+
+    ```bash
+    $ ghc --version
+    The Glorious Glasgow Haskell Compilation System, version 8.8.1
+    ```
+
+* Java files were tested with
 
     ```bash
     $ javac -version
@@ -57,7 +64,7 @@ JCoCo output when using the `-v` option, e.g.
     openjdk version "1.8.0_222"
     ```
 
-* The Python files were tested with
+* Python files were tested with
 
     ```bash
     $ python --version
