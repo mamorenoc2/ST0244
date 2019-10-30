@@ -1,4 +1,3 @@
-// Created on 2019-10-05.
 
 #include <stdio.h>
 

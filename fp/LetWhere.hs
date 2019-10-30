@@ -1,5 +1,5 @@
 
--- Adaped from Fig. 5.9 in Kent D. Lee (2017), Foundations of
+-- Adapted from Fig. 5.9 in Kent D. Lee (2017), Foundations of
 -- Programming Languages, 2nd ed.
 
 import Numeric.Natural ( Natural )
