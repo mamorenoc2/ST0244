@@ -17,9 +17,13 @@ constexpr : constexpr.cpp
 fibonacci : Fibonacci.hs
 	ghc $(GHC_FLAGS) -o fibonacci $<
 
+quickcheck : QuickCheck.hs
+	ghc $(GHC_FLAGS) -o quickcheck $<
+
 clean :
 	rm -f *.hi
 	rm -f *.o
 	rm -f a.out
 	rm -f fibonacci
+	rm -f quickcheck
 	rm -f side-effects1
