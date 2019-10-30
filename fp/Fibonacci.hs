@@ -1,7 +1,7 @@
 
 import Numeric.Natural ( Natural )
 
--- Vert inefficient version.
+-- Very inefficient version.
 fib :: Natural -> Natural
 fib 0 = 0
 fib 1 = 1
