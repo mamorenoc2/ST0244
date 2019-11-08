@@ -29,26 +29,26 @@ male(sophusw).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Family tree.
 
-parent(addie, gary).
-parent(gary, kent).
-parent(gary, stephen).
-parent(gary, anne).
-parent(gerry, kent).
-parent(fred, sophusw).
-parent(fred, lawrence).
-parent(fred, kenny).
-parent(fred, esther).
+parent(addie,gary).
+parent(gary,kent).
+parent(gary,stephen).
+parent(gary,anne).
+parent(gerry,kent).
+parent(fred,sophusw).
+parent(fred,lawrence).
+parent(fred,kenny).
+parent(fred,esther).
 parent(inger,sophusw).
 parent(johan,sophus).
-parent(johnhs, fred).
-parent(lars, johan).
-parent(lars, mads).
+parent(johnhs,fred).
+parent(lars,johan).
+parent(lars,mads).
 parent(mads,johnhs).
-parent(sophusw, gary).
-parent(sophusw, john).
-parent(sophusw, bruce).
-parent(john, michael).
-parent(john, michelle).
+parent(sophusw,gary).
+parent(sophusw,john).
+parent(sophusw,bruce).
+parent(john,michael).
+parent(john,michelle).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Predicates.
