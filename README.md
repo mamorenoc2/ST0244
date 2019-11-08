@@ -64,6 +64,13 @@ JCoCo output when using the `-v` option, e.g.
     openjdk version "1.8.0_222"
     ```
 
+* Prolog files were tested with
+
+    ```bash
+    $ swipl --version
+    SWI-Prolog version 7.2.3
+    ```
+
 * Python files were tested with
 
     ```bash
